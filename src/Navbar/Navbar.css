@@ -55,16 +55,14 @@
         position: fixed;
         top: -20px;
         left: 0;
-        height: 200px;
-        width: 200px;
+        height: 80px;
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 10px;
         transition: 1s;
         transform: translateY(-100vh);
-        flex-direction: column;
-        background-color: aqua;
+        background-color: rgb(134, 152, 232);
     } 
     .navBar .responsive_nav{
         transform: none;
