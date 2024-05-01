@@ -1,0 +1,42 @@
+.edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;  
+    border: 2px solid rgb(51, 51, 51);
+    margin-top: 10px;
+}
+.bio{
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.eductaion{
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table th {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid grey;
+}
+table td{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+}

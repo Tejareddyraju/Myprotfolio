@@ -1,0 +1,54 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;  
+    border: 2px solid rgb(51, 51, 51);
+    margin-top: 10px;
+}
+.mySelf{
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.icon-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 30%;
+    background-color: rgb(159, 206, 206);
+    transition: all 0.3s ease-in-out;
+    margin-top: 60px;
+}
+.icon-contacts:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icons-2{
+    margin-left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wats{
+    width: 80px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);  
+    margin-top: 5%;
+}
